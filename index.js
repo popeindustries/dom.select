@@ -1,7 +1,7 @@
 // TODO: add support for live lists?
 // TODO: add support for multiple selectors?
 
-var objectUtils = require('util.object')
+var id = require('util.identify')
 	, win = window
 	, doc = win.document;
 
@@ -39,7 +39,7 @@ if (!doc.getElementsByClassName) {
  */
 module.exports = function(selector, context, tag) {
 	var elements, item, sel;
-	if (!objectUtils.isElement(context)) {
+	if (!id.isElement(context)) {
 		// Retrieve domElement if passed Element instance, otherwise document
 		context = (context != null ? context.domElement : null) || doc;
 	}
