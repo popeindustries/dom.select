@@ -4,7 +4,7 @@
 	"version": "0.0.1",
 	"author": "popeindustries <alex@pope-industries.com>",
 	"dependencies": {
-		"util.identify": "git://github.com/popeindustries/util.identify.git"
+		"util.identify": "git://github.com/thomalein/util.identify.git"
 	},
 	"main": "index.js",
 	"repository": {
