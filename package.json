@@ -1,8 +1,8 @@
 {
 	"name": "dom.select",
 	"description": "Cross-browser element selection",
-	"version": "0.0.1",
-	"author": "popeindustries <alex@pope-industries.com>",
+	"version": "0.0.2",
+	"author": "Thomas Lein <thomaslein@gmail.com>",
 	"dependencies": {
 		"util.identify": "git://github.com/thomaslein/util.identify.git"
 	},
