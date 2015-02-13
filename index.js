@@ -68,7 +68,9 @@ module.exports = function(selector, context, tag) {
 		}
 	}
 
-	if (elements.length) {
+	if (elements.length === 1) {
+		return elements[0]
+	}else if (elements.length > 1) {
 		var results = [];
 		// Convert NodeList to Array
 		for (var i = 0, n = elements.length; i < n; i++) {
